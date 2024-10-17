@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="instagram.png" alt="Instagram Logo" class="logo">
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="navbar-icons">
+            <a href="#"><img src="home.png" alt="Home"></a>
+            <a href="#"><img src="chat.png" alt="Messages"></a>
+            <a href="#"><img src="story.png" alt="Add Post"></a>
+            <a href="#"><img src="profile.png" alt="Profile"></a>
+        </div>
+    </nav>
+
+    <!-- Feed Section -->
+    <section class="feed">
+        <div class="post">
+            <div class="post-header">
+                <img src="profile.png" alt="Profile Pic" class="profile-pic">
+                <h4>username_1</h4>
+            </div>
+            <img src="post.jpg" alt="Post Image" class="post-image">
+            <div class="post-actions">
+                <img src="heart.png" alt="Like" class="icon">
+                <img src="chat (1).png" alt="Comment" class="icon">
+                <img src="send.png" alt="Share" class="icon">
+            </div>
+            <p class="likes">Liked by <strong>user2</strong> and 120 others</p>
+            <p class="post-caption"><strong>username_1</strong> Enjoying the sunset! #sunset #beautiful</p>
+            <input type="text" class="add-comment" placeholder="Add a comment...">
+        </div>
+
+        <!-- Add more posts here -->
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile">
+        <div class="profile-header">
+            <img src="profile.png" alt="Profile Pic" class="profile-pic-large">
+            <div class="profile-info">
+                <h2>username_1</h2>
+                <p>Bio: Love to travel and take photos!</p>
+                <div class="stats">
+                    <span>Posts: 50</span>
+                    <span>Followers: 1.2k</span>
+                    <span>Following: 250</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image grid for profile posts -->
+        <div class="profile-posts">
+            <img src="tree.jpg" alt="Profile Post" class="profile-post">
+            <img src="chameleon.jpg" alt="Profile Post" class="profile-post">
+            <img src="leaf.jpg" alt="Profile Post" class="profile-post">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
